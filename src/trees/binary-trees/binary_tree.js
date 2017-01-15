@@ -3,11 +3,13 @@
 // http://visualgo.net/bst.html
 
 function BinTree(){
-
+  this.root = null;
 }
 
 function Node(value,left,right){
-
+  this.value = value;
+  this.left = null;
+  this.right = null;
 }
 
 // NOTE - Duplicates are excluded in our tree!
